@@ -1,5 +1,11 @@
 {
   "version": 2,
   "public": true,
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "builds": [
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static"
+    }
+  ]
 }
