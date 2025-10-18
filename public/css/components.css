@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.chapter-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.chapter-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chapter-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.add-chapter {
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-chapter input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-chapter button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.add-chapter button:hover {
+    background-color: #218838;
+}
