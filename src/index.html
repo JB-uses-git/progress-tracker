@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Progress Tracker</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study Progress Tracker</h1>
+            <p>Track your academic progress across different subjects</p>
+        </header>
+        
+        <main class="subjects-grid">
+            <div class="subject-card" onclick="navigateToSubject('physics')">
+                <div class="subject-icon">📚</div>
+                <h2>Physics</h2>
+                <p>Track your physics study progress</p>
+                <div class="progress-preview" id="physics-progress">0% Complete</div>
+            </div>
+            
+            <div class="subject-card" onclick="navigateToSubject('physical-chemistry')">
+                <div class="subject-icon">⚛️</div>
+                <h2>Physical Chemistry</h2>
+                <p>Track your physical chemistry study progress</p>
+                <div class="progress-preview" id="physical-chemistry-progress">0% Complete</div>
+            </div>
+            
+            <div class="subject-card" onclick="navigateToSubject('organic-chemistry')">
+                <div class="subject-icon">🧪</div>
+                <h2>Organic Chemistry</h2>
+                <p>Track your organic chemistry study progress</p>
+                <div class="progress-preview" id="organic-chemistry-progress">0% Complete</div>
+            </div>
+            
+            <div class="subject-card" onclick="navigateToSubject('biology')">
+                <div class="subject-icon">🔬</div>
+                <h2>Biology</h2>
+                <p>Track your biology study progress</p>
+                <div class="progress-preview" id="biology-progress">0% Complete</div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

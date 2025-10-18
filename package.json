@@ -1,0 +1,32 @@
+{
+  "name": "progress-tracker-website",
+  "version": "1.0.0",
+  "description": "A progress tracker for various science subjects including Physics, Physical Chemistry, Organic Chemistry, and Biology.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "dev": "live-server src --port=3000 --open=/index.html",
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'Test step not defined'"
+  },
+  "keywords": [
+    "progress",
+    "tracker",
+    "education",
+    "science"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/yourusername/progress-tracker-website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/progress-tracker-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/progress-tracker-website/issues"
+  }
+}
