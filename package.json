@@ -4,9 +4,9 @@
   "description": "A progress tracker for various science subjects including Physics, Physical Chemistry, Organic Chemistry, and Biology.",
   "main": "src/js/app.js",
   "scripts": {
-    "dev": "live-server src --port=3000 --open=/index.html",
-    "start": "live-server src",
-    "build": "echo 'Build step not defined'",
+    "dev": "live-server . --port=3000 --open=/index.html",
+    "start": "live-server .",
+    "build": "echo 'Static files ready for deployment'",
     "test": "echo 'Test step not defined'"
   },
   "keywords": [
